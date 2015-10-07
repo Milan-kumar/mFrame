@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21756" started-at="2015-10-07T12:28:54Z" finished-at="2015-10-07T12:29:16Z">
+    <groups>
+    </groups>
+    <test name="TestHomePage" duration-ms="21756" started-at="2015-10-07T12:28:54Z" finished-at="2015-10-07T12:29:16Z">
+      <class name="org.testng.Tests.HomePage">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:org.testng.Tests.HomePage@38b27cdc]" name="setUp" is-config="true" duration-ms="13763" started-at="2015-10-07T17:58:54Z" finished-at="2015-10-07T17:59:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.google.co.in/?gws_rd=ssl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enterSearch()[pri:0, instance:org.testng.Tests.HomePage@38b27cdc]" name="enterSearch" duration-ms="7353" started-at="2015-10-07T17:59:08Z" finished-at="2015-10-07T17:59:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.testng.Tests.HomePage@38b27cdc]" name="tearDown" is-config="true" duration-ms="620" started-at="2015-10-07T17:59:15Z" finished-at="2015-10-07T17:59:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.testng.Tests.HomePage -->
+    </test> <!-- TestHomePage -->
+  </suite> <!-- Suite -->
+</testng-results>

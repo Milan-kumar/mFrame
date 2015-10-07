@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31077" started-at="2015-09-08T10:39:12Z" finished-at="2015-09-08T10:39:43Z">
+    <groups>
+    </groups>
+    <test name="TestHomePage" duration-ms="18168" started-at="2015-09-08T10:39:12Z" finished-at="2015-09-08T10:39:30Z">
+      <class name="org.testng.Tests.HomePage">
+        <test-method status="PASS" signature="startBrowserSession()[pri:0, instance:org.testng.Tests.HomePage@478190fc]" name="startBrowserSession" is-config="true" duration-ms="15852" started-at="2015-09-08T16:09:12Z" finished-at="2015-09-08T16:09:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserSession -->
+        <test-method status="PASS" signature="enterSearch(java.lang.String)[pri:0, instance:org.testng.Tests.HomePage@478190fc]" name="enterSearch" duration-ms="154" started-at="2015-09-08T16:09:28Z" finished-at="2015-09-08T16:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Milan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearch -->
+        <test-method status="PASS" signature="stopBrowserSession()[pri:0, instance:org.testng.Tests.HomePage@478190fc]" name="stopBrowserSession" is-config="true" duration-ms="2152" started-at="2015-09-08T16:09:28Z" finished-at="2015-09-08T16:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowserSession -->
+      </class> <!-- org.testng.Tests.HomePage -->
+    </test> <!-- TestHomePage -->
+    <test name="TestVerifySearch" duration-ms="12886" started-at="2015-09-08T10:39:30Z" finished-at="2015-09-08T10:39:43Z">
+      <class name="org.testng.Tests.VerifySearch">
+        <test-method status="PASS" signature="startBrowserSession()[pri:0, instance:org.testng.Tests.VerifySearch@799f10e1]" name="startBrowserSession" is-config="true" duration-ms="10209" started-at="2015-09-08T16:09:30Z" finished-at="2015-09-08T16:09:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startBrowserSession -->
+        <test-method status="PASS" signature="enterSearch(java.lang.String)[pri:0, instance:org.testng.Tests.VerifySearch@799f10e1]" name="enterSearch" duration-ms="151" started-at="2015-09-08T16:09:40Z" finished-at="2015-09-08T16:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearch -->
+        <test-method status="PASS" signature="verifySearch(java.lang.String)[pri:0, instance:org.testng.Tests.VerifySearch@799f10e1]" name="verifySearch" duration-ms="1178" started-at="2015-09-08T16:09:41Z" depends-on-methods="org.testng.Tests.VerifySearch.enterSearch" finished-at="2015-09-08T16:09:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Wikipedia]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method status="PASS" signature="stopBrowserSession()[pri:0, instance:org.testng.Tests.VerifySearch@799f10e1]" name="stopBrowserSession" is-config="true" duration-ms="1346" started-at="2015-09-08T16:09:42Z" finished-at="2015-09-08T16:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowserSession -->
+      </class> <!-- org.testng.Tests.VerifySearch -->
+    </test> <!-- TestVerifySearch -->
+  </suite> <!-- Suite -->
+</testng-results>

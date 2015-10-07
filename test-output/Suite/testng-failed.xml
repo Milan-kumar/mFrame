@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="url" value="https://www.google.co.in/?gws_rd=ssl"/>
+  <parameter name="homePageInput" value="Milan"/>
+  <test name="TestHomePage(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <parameter name="homePageInput" value="Milan"/>
+    <classes>
+      <class name="org.testng.Tests.HomePage">
+        <methods>
+          <include name="enterSearch"/>
+        </methods>
+      </class> <!-- org.testng.Tests.HomePage -->
+    </classes>
+  </test> <!-- TestHomePage(failed) -->
+</suite> <!-- Failed suite [Suite] -->
